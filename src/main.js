@@ -7,5 +7,7 @@ import { defineElement } from 'lord-icon-element'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import 'animate.css'
+import Chart from 'chart.js/auto';
+
 createApp(App).use(store).use(router).mount('#app')
 defineElement(lottie.loadAnimation);
